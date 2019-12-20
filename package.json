@@ -1,0 +1,19 @@
+{
+  "name": "learning-functional",
+  "version": "1.0.0",
+  "description": "Functional lib and examples in ES8",
+  "main": "index.js",
+  "scripts": {
+    "playground": "babel-node functional-playground/play.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florent",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017-node7": "^0.5.2"
+  }
+}
